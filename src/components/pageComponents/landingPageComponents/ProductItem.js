@@ -12,7 +12,6 @@ function ProductItem({ product, isSmallScreen, isMediumScreen, productImage }) {
 			border: "1px solid rgba(0, 0, 0, 0.4)",
 			boxShadow: "1px 1px 5px 2px rgba(136, 136, 136, 0.42)",
 			display: "flex",
-			transition: "0.3s",
 			width: isSmallScreen ? "80%" : isMediumScreen ? "80%" : "85%",
 			height: isSmallScreen ? "130px" : isMediumScreen ? "130px" : "200px",
 			backgroundImage: `url(${productImage})`,
