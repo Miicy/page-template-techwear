@@ -97,7 +97,6 @@ function LandingPage() {
 			mt: 4,
 		},
 		slideContainer: {
-			backgroundColor: "blue",
 			height: "70vh",
 			width: "100%",
 			display: "block",
