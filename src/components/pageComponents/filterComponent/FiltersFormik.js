@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useMemo } from "react";
+import React, { useEffect, useState } from "react";
 import { useTheme } from "@emotion/react";
 import { Box, Checkbox, Divider, Input, Slider } from "@mui/material";
 import { Formik, Field, useFormik } from "formik";
@@ -7,7 +7,7 @@ import { filterArray } from "../../../helpers/FilterArray";
 function FiltersFormik({ isVertical, filterReset, setFilterReset }) {
   const theme = useTheme();
 
-  const filterExpandedContentStyles = useMemo(() => ({
+  const filterExpandedContentStyles ={
     width: "100%",
     display: "flex",
     flexDirection: isVertical ? "column" : "row",
@@ -24,7 +24,7 @@ function FiltersFormik({ isVertical, filterReset, setFilterReset }) {
       borderRadius: "3px",
       border: "3px solid transparent",
     },
-  }));
+  }
 
   const FiltersFormikStyles ={
     expandedContentMap:{
@@ -43,7 +43,7 @@ function FiltersFormik({ isVertical, filterReset, setFilterReset }) {
       alignItems: "center",
     },
     title:{
-    color: `${theme.palette.customOpposite.main}`,
+    color: theme.palette.customOpposite.main,
     width: "85%",
     fontWeight: "bold",
     },
@@ -64,9 +64,6 @@ function FiltersFormik({ isVertical, filterReset, setFilterReset }) {
       flexDirection: "column",
       alignItems: "center",
     },
-    title:{
-      color:theme.palette.customOpposite.main,
-    },
     filter:{
       width: "80%",
       display: "flex",
@@ -82,7 +79,6 @@ function FiltersFormik({ isVertical, filterReset, setFilterReset }) {
     }
   }
 
-  //formik
   const formik = useFormik({
     initialValues: {
       filters: [],

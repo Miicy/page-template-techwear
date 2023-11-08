@@ -1,6 +1,7 @@
-import { Box, Grid } from "@mui/material";
+import { Grid } from "@mui/material";
+import React from "react";
 import useScreenSize from "../../../helpers/useSreenSize";
-import React, { useState } from "react";
+
 import { getAllProducts } from "../../../helpers/useGetProducts";
 import productImage from "../../../media/product.jpg";
 import ProductItem from "./ProductItem";

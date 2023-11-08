@@ -34,13 +34,9 @@ function App() {
 
 	return (
 		<ThemeProvider theme={theme}>
-			<BrowserRouter>
 				<Header />
 				{!smallScreen && <FilterComponent />}
-				<Routes>
-					<Route path="/" element={<LandingPage />} />
-				</Routes>
-			</BrowserRouter>
+					<LandingPage />
 		</ThemeProvider>
 	);
 }

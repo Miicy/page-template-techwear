@@ -1,4 +1,4 @@
-import { Box, Grid, useTheme } from "@mui/material";
+import { Grid, useTheme } from "@mui/material";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import ExpandLessIcon from "@mui/icons-material/ExpandLess";
 import { useEffect, useState } from "react";
