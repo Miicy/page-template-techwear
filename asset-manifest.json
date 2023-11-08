@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/techwear-homepage/static/css/main.8e32d15e.css",
-    "main.js": "/techwear-homepage/static/js/main.9b139b34.js",
+    "main.js": "/techwear-homepage/static/js/main.51402e38.js",
     "static/js/787.c4e7f8f9.chunk.js": "/techwear-homepage/static/js/787.c4e7f8f9.chunk.js",
     "static/media/pic3.png": "/techwear-homepage/static/media/pic3.92d73e331d9b07adf955.png",
     "static/media/pic2.png": "/techwear-homepage/static/media/pic2.7a046af787b0284cb714.png",
@@ -15,11 +15,11 @@
     "static/media/logo-thin-black.svg": "/techwear-homepage/static/media/logo-thin-black.f9ebe9f0b1c5085128b346646ece06d1.svg",
     "index.html": "/techwear-homepage/index.html",
     "main.8e32d15e.css.map": "/techwear-homepage/static/css/main.8e32d15e.css.map",
-    "main.9b139b34.js.map": "/techwear-homepage/static/js/main.9b139b34.js.map",
+    "main.51402e38.js.map": "/techwear-homepage/static/js/main.51402e38.js.map",
     "787.c4e7f8f9.chunk.js.map": "/techwear-homepage/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8e32d15e.css",
-    "static/js/main.9b139b34.js"
+    "static/js/main.51402e38.js"
   ]
 }
