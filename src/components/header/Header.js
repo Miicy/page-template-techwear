@@ -72,7 +72,7 @@ function Header() {
 			display: "flex",
 			alignItems: "center",
 			justifyContent: "center",
-			mt: "70px",
+			mt: "85px",
 			height: "60px",
 			width: "100%",
 			minWidth: "290px",

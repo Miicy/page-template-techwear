@@ -19,7 +19,7 @@ function SmallScreenFilter() {
 
 const SmallScreenFilter={
   container:{
-    mt: "130px",
+    mt: "140px",
     height: expanded ? "80%" : "30px",
     transition: "height 0.3s",
     width: "100%",
@@ -48,7 +48,7 @@ const SmallScreenFilter={
     width: "100%",
     display: "flex",
     alignItems:"center",
-    justifyContent: "center"
+    justifyContent: "center",
   },
   down:{
     fontSize: "0.9em",
@@ -69,6 +69,7 @@ const SmallScreenFilter={
         </Grid>
       )}
       <Grid onTouchStart={handleTouchStart} sx={SmallScreenFilter.click}>
+        Filter
         {!expanded ? (
           <ExpandMoreIcon sx={SmallScreenFilter.down} />
         ) : (

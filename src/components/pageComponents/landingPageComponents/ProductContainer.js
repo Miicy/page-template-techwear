@@ -1,7 +1,7 @@
 import { Grid } from "@mui/material";
 import React from "react";
 import useScreenSize from "../../../helpers/useSreenSize";
-
+import { isMobile } from "react-device-detect";
 import { getAllProducts } from "../../../helpers/useGetProducts";
 import productImage from "../../../media/product.jpg";
 import ProductItem from "./ProductItem";
@@ -10,12 +10,17 @@ function ProductContainer() {
 	const { isSmallScreen, isMediumScreen } = useScreenSize();
 	const allProducts = getAllProducts();
 	let limit = 8;
-	if (isMediumScreen) {
+	
+	if (isMobile) {
+		// For mobile screens
+		limit = 4;
+	  } else if (isMediumScreen) {
+		// For medium screens
 		limit = 9;
-	} else if (isSmallScreen) {
-		limit = 6;
-	}
-
+	  } else if (isSmallScreen) {
+		// For small screens
+		limit = 4;
+	  }
 	const productContainerStyles = {
 		container: {
 			position: "relative",

@@ -46,7 +46,7 @@ function FilterPcExpanded({ isVertical }) {
 			width: isVertical ? "100%" : undefined,
 		},
 		border: {
-			border: `1px solid ${theme.palette.customOppositeLighter.main}`,
+			border: isSmallScreen ? " " : `1px solid ${theme.palette.customOppositeLighter.main}`,
 			borderRadius: "5px",
 			padding: isVertical ? "10px" : "5px",
 			width: isVertical ? "40%" : "80px",
@@ -54,9 +54,9 @@ function FilterPcExpanded({ isVertical }) {
 			alignItems: "center",
 			justifyContent: "center",
 			"&:hover": {
-				backgroundColor: theme.palette.forth.main,
+				backgroundColor:  isSmallScreen ? " " : theme.palette.forth.main,
 			},
-			backgroundColor: theme.palette.third.main,
+			backgroundColor: isSmallScreen ? " " : theme.palette.third.main,
 		},
 	};
 
