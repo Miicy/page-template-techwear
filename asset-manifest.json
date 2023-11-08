@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/techwear-homepage/static/css/main.8e32d15e.css",
+    "main.js": "/techwear-homepage/static/js/main.a05dfc8d.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/techwear-homepage/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/pic3.png": "/techwear-homepage/static/media/pic3.92d73e331d9b07adf955.png",
+    "static/media/pic2.png": "/techwear-homepage/static/media/pic2.7a046af787b0284cb714.png",
+    "static/media/tokyo-nightime-blurry.jpg": "/techwear-homepage/static/media/tokyo-nightime-blurry.f05551f2bd1bcbd6d80d.jpg",
+    "static/media/tokyo-daytime-blurry.jpg": "/techwear-homepage/static/media/tokyo-daytime-blurry.425283e5d3c0564947c1.jpg",
+    "static/media/pic1.jpg": "/techwear-homepage/static/media/pic1.7c25fab2d60ed8c311f4.jpg",
+    "static/media/product.jpg": "/techwear-homepage/static/media/product.6316e7a6e5e6f5f2106c.jpg",
+    "static/media/logo-thin-white.svg": "/techwear-homepage/static/media/logo-thin-white.53b5f813779e41c20035acdeeeaee658.svg",
+    "static/media/logo-thick-white.svg": "/techwear-homepage/static/media/logo-thick-white.1616cc190e6fc8c7212d904e9142298c.svg",
+    "static/media/logo-thick-black.svg": "/techwear-homepage/static/media/logo-thick-black.d6a1a85e0789d3dd98d0dc84dacc1abb.svg",
+    "static/media/logo-thin-black.svg": "/techwear-homepage/static/media/logo-thin-black.f9ebe9f0b1c5085128b346646ece06d1.svg",
+    "index.html": "/techwear-homepage/index.html",
+    "main.8e32d15e.css.map": "/techwear-homepage/static/css/main.8e32d15e.css.map",
+    "main.a05dfc8d.js.map": "/techwear-homepage/static/js/main.a05dfc8d.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/techwear-homepage/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8e32d15e.css",
+    "static/js/main.a05dfc8d.js"
+  ]
+}
