@@ -69,7 +69,7 @@ const SmallScreenFilter={
         </Grid>
       )}
       <Grid onTouchStart={handleTouchStart} sx={SmallScreenFilter.click}>
-        Filter
+        <Box sx={{color: themeMode === "light" ? "black" : "white" }}>Filter</Box>
         {!expanded ? (
           <ExpandMoreIcon sx={SmallScreenFilter.down} />
         ) : (
