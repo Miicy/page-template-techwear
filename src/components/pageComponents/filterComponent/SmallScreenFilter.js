@@ -1,11 +1,14 @@
-import { Grid, useTheme } from "@mui/material";
+import { Box, Grid, useTheme } from "@mui/material";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import ExpandLessIcon from "@mui/icons-material/ExpandLess";
 import { useEffect, useState } from "react";
 import FilterPcContentExpanded from "./FilterPcExpanded"; 
+import { useSelector } from "react-redux";
+import { selectActiveTheme } from "../../../store/reducers/userSlice";
 
 function SmallScreenFilter() {
   const theme = useTheme();
+  const themeMode = useSelector(selectActiveTheme);
   const [expanded, setExpanded] = useState(false);
   const [isVertical, setIsVertical] = useState(true);
 

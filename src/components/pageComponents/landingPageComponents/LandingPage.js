@@ -12,6 +12,8 @@ import image3 from "../../../media/pic3.png";
 import ProductContainer from "./ProductContainer";
 
 function LandingPage() {
+	const theme = useTheme();
+	const themeMode = useSelector(selectActiveTheme);
 	const { isSmallScreen, isMediumScreen } = useScreenSize();
 	const [scrollPosition, setScrollPosition] = useState(0);
 
@@ -32,8 +34,6 @@ function LandingPage() {
 
 	const addText = ["TechWear Shop", "NEW", "SALE"];
 
-	const theme = useTheme();
-	const themeMode = useSelector(selectActiveTheme);
 	const backgroundImage =
 		themeMode === "light" ? `url(${tokyoDay})` : `url(${tokyoNight})`;
 	const arrayImageSlide = [image1, image2, image3];
