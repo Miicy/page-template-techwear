@@ -50,7 +50,7 @@ function FilterPcExpanded({ isVertical }) {
 			borderRadius: "5px",
 			padding: isVertical ? "10px" : "5px",
 			width: isVertical ? "40%" : "80px",
-			display: "flex",
+			display: "flex",  
 			alignItems: "center",
 			justifyContent: "center",
 			"&:hover": {

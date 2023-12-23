@@ -20,7 +20,7 @@ function SmallScreenFilter() {
     setExpanded((prevExpanded) => !prevExpanded);
   };
 
-const SmallScreenFilter={
+const SmallScreenFilter={ 
   container:{
     mt: "140px",
     height: expanded ? "80%" : "30px",
