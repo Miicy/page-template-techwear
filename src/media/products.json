@@ -1,16 +1,16 @@
 {
     "products": [
-      { "title": "Product 1", "price": 10.99 },
-      { "title": "Product 2", "price": 15.99 },
-      { "title": "Product 3", "price": 7.49 },
-      { "title": "Product 4", "price": 22.50 },
-      { "title": "Product 5", "price": 9.99 },
-      { "title": "Product 6", "price": 12.75 },
-      { "title": "Product 7", "price": 5.99 },
-      { "title": "Product 8", "price": 18.95 },
-      { "title": "Product 9", "price": 14.99 },
-      { "title": "Product 10", "price": 11.25 },
-      { "title": "Product 11", "price": 6.50 },
-      { "title": "Product 12", "price": 8.75 }
+      { "title": "Black Pants", "price": 10.99 },
+      { "title": "White Jacket", "price": 15.99 },
+      { "title": "Boots", "price": 7.49 },
+      { "title": "West", "price": 22.50 },
+      { "title": "Skirt", "price": 9.99 },
+      { "title": "Female Jacket", "price": 12.75 },
+      { "title": "Bag", "price": 5.99 },
+      { "title": "Shoes", "price": 18.95 },
+      { "title": "Black Pants", "price": 14.99 },
+      { "title":  "White Jacket", "price": 11.25 },
+      { "title": "Boots", "price": 6.50 },
+      { "title": "West", "price": 8.75 }
     ]
   }

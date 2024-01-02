@@ -134,7 +134,7 @@ function LandingPage() {
 			color: themeMode === "light" ? `black` : `white`,
 		},
 		itemsContainer: {
-			height: "50vh",
+			height: isMediumScreen ? "55vh" : isSmallScreen ? "45vh" : "65vh",
 			width: "100%",
 			display: "flex",
 			flexDirection: "column",
@@ -144,12 +144,12 @@ function LandingPage() {
 		},
 		showMore: {
 			fontSize: isSmallScreen ? "0.8em" : "0.9em",
-			cursor:"pointer",
+			cursor: "pointer",
 			color: themeMode === "light" ? `black` : `white`,
 			"&:hover": {
 				color: theme.palette.text.secondary,
-				textDecoration:"underline",
-			  },
+				textDecoration: "underline",
+			},
 		},
 	};
 
@@ -163,7 +163,7 @@ function LandingPage() {
 			visibility: scrollPosition > 60 ? "visible" : "hidden",
 			width: "100%",
 			textAlign: "center",
-			borderRadius:"none"
+			borderRadius: "none",
 		},
 		right: {
 			...ladningPageStyles.imageSlideAttacmentBase,
@@ -189,7 +189,6 @@ function LandingPage() {
 			visibility: scrollPosition > 1400 ? "visible" : "hidden",
 			width: isSmallScreen ? "100%" : "50%",
 		},
-		
 	};
 
 	return (
