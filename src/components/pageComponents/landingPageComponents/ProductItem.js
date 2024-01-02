@@ -54,8 +54,8 @@ function ProductItem({ product, isSmallScreen, isMediumScreen, productImage }) {
 		>
 			<Box sx={isHovered ? productItemStyles.hover : { ...productItemStyles.hover, opacity: 1 }}>
 				<Box sx={productItemStyles.overlay}>
-					<h3>{product.title}</h3>
-					<p>${product.price}</p>
+					<h3 style={{textAlign:"center"}}>{product.title}</h3>
+					<p style={{fontWeight:"bold"}}> ${product.price}</p>
 				</Box>
 			</Box>
 		</Box>
